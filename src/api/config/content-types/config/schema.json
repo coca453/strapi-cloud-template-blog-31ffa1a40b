@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "configs",
+  "info": {
+    "singularName": "config",
+    "pluralName": "configs",
+    "displayName": "config"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mes": {
+      "type": "integer",
+      "min": 1,
+      "max": 12
+    },
+    "ano": {
+      "type": "integer"
+    }
+  }
+}
