@@ -477,7 +477,9 @@ export interface ApiEventoEvento extends Struct.CollectionTypeSchema {
     draftAndPublish: true;
   };
   attributes: {
-    Category: Schema.Attribute.Enumeration<['cuerpo', 'mente', 'comunidad']>;
+    Category: Schema.Attribute.Enumeration<
+      ['cuerpo', 'mente', 'comunidad', 'feriado']
+    >;
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;

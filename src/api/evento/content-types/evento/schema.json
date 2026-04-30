@@ -19,7 +19,8 @@
       "enum": [
         "cuerpo",
         "mente",
-        "comunidad"
+        "comunidad",
+        "feriado"
       ]
     },
     "Day": {
